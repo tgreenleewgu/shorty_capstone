@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b465fe71-bd28-47fe-a602-fc0efed8ce88" name="Changes" comment="Part B Complete">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tgreenleewgu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tgreenleewgu/ShortyUrlFrontend.git&quot;,
+    &quot;accountId&quot;: &quot;9d382db1-3cd4-415d-8e21-67b4fa20aa8d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2uNHxxwUbkeTtzn8WXVYccJFZOb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/travi/code/frontend/ShortyUrlFrontend/assets/images",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\travi\code\frontend\ShortyUrlFrontend\assets\images" />
+      <recent name="C:\code\frontend\ShortyUrlFrontend\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\travi\code\frontend\ShortyUrlFrontend\assets" />
+      <recent name="C:\code\frontend\ShortyUrlFrontend\app\src" />
+      <recent name="C:\code\frontend\ShortyUrlFrontend\app\context" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b465fe71-bd28-47fe-a602-fc0efed8ce88" name="Changes" comment="" />
+      <created>1742082363220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742082363220</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Post is hitting the backend but with errors">
+      <option name="closed" value="true" />
+      <created>1742083816112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742083816112</updated>
+    </task>
+    <task id="LOCAL-00002" summary="got frontend working with backend and DB. &#10;POST and GET are working.">
+      <option name="closed" value="true" />
+      <created>1742085351480</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742085351480</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated tabs">
+      <option name="closed" value="true" />
+      <created>1743122563196</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743122563197</updated>
+    </task>
+    <task id="LOCAL-00004" summary="working version with email send to DB">
+      <option name="closed" value="true" />
+      <created>1744504975358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744504975358</updated>
+    </task>
+    <task id="LOCAL-00005" summary="quick fix for email issue in DB">
+      <option name="closed" value="true" />
+      <created>1744506661149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744506661149</updated>
+    </task>
+    <task id="LOCAL-00006" summary="working version with correct analytics with user email only.">
+      <option name="closed" value="true" />
+      <created>1744588973866</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744588973866</updated>
+    </task>
+    <task id="LOCAL-00007" summary="working commit">
+      <option name="closed" value="true" />
+      <created>1745513049958</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745513049958</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" got soical auth working still need to get frontend nav fixed.">
+      <option name="closed" value="true" />
+      <created>1746233532148</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746233532148</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added google auth, but will not function in local dev setting will redeploy when app is under a single domain.">
+      <option name="closed" value="true" />
+      <created>1746409549865</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746409549865</updated>
+    </task>
+    <task id="LOCAL-00010" summary="working MVP of ShortyUrl">
+      <option name="closed" value="true" />
+      <created>1746469226813</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746469226813</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixed call issue with Delete function.">
+      <option name="closed" value="true" />
+      <created>1746471219059</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746471219059</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added scroll function to analytics screen.">
+      <option name="closed" value="true" />
+      <created>1746475534016</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746475534016</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added time stamp to analytics all time in UTC do to dev settings">
+      <option name="closed" value="true" />
+      <created>1746495612944</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746495612944</updated>
+    </task>
+    <task id="LOCAL-00014" summary="removed index tabs">
+      <option name="closed" value="true" />
+      <created>1746496261344</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746496261344</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Part B Complete">
+      <option name="closed" value="true" />
+      <created>1746581436172</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1746581436172</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="c6c98646-4143-4edd-8e67-62ba5c977674" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="c6c98646-4143-4edd-8e67-62ba5c977674">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Post is hitting the backend but with errors" />
+    <MESSAGE value="got frontend working with backend and DB. &#10;POST and GET are working." />
+    <MESSAGE value="updated tabs" />
+    <MESSAGE value="working version with email send to DB" />
+    <MESSAGE value="quick fix for email issue in DB" />
+    <MESSAGE value="working version with correct analytics with user email only." />
+    <MESSAGE value="working commit" />
+    <MESSAGE value=" got soical auth working still need to get frontend nav fixed." />
+    <MESSAGE value=" changed tabs to main" />
+    <MESSAGE value="added google auth, but will not function in local dev setting will redeploy when app is under a single domain." />
+    <MESSAGE value="working MVP of ShortyUrl" />
+    <MESSAGE value="fixed call issue with Delete function." />
+    <MESSAGE value="added scroll function to analytics screen." />
+    <MESSAGE value="added time stamp to analytics all time in UTC do to dev settings" />
+    <MESSAGE value="removed index tabs" />
+    <MESSAGE value="Part B Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part B Complete" />
+  </component>
+</project>
