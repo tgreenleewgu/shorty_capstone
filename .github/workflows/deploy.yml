@@ -1,0 +1,54 @@
+# Auto deploys backend to EC2 and frontend to S3/CloudFront on push to main
+name: Auto Deploy (EC2 + S3)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: ⬇️ Checkout Repo
+      uses: actions/checkout@v3
+
+    - name:  Set up SSH Key
+      run: |
+        echo "${{ secrets.EC2_SSH_KEY }}" > ec2_key.pem
+        chmod 600 ec2_key.pem
+
+    - name:  Deploy Backend to EC2
+      run: |
+        ssh -o StrictHostKeyChecking=no -i ec2_key.pem ${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }} << 'EOF'
+          cd ~/shorty_project
+          git pull origin main
+          ./deploy.sh
+        EOF
+
+    - name:  Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name:  Install Frontend Dependencies
+      working-directory: frontend
+      run: npm install
+
+    - name:  Build Frontend (Expo Web)
+      working-directory: frontend
+      run: npx expo export:web
+
+    - name:  Configure AWS CLI
+      uses: aws-actions/configure-aws-credentials@v2
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+
+    - name:  Upload Frontend to S3
+      run: aws s3 sync frontend/web-build/ s3://getshortylink-web/ --delete --acl public-read
+
+    - name:  Invalidate CloudFront Cache
+      run: aws cloudfront create-invalidation --distribution-id E31H19C6YTYWVG --paths "/*"
